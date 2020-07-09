@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1593654513 source:e:\courses\try to make sebha from skratch\sebha\gpio.c
+	<pic16f877a.h>
+	"gpio.h"
+
+1593597106 e:\courses\try to make sebha from skratch\sebha\gpio.h
+
+1593665404 source:e:\courses\try to make sebha from skratch\sebha\sebha.c
+	<pic16f877a.h>
+	"ssd.h"
+	"gpio.h"
+	"counter.h"
+	"pushbutton.h"
+
+1593497495 e:\courses\try to make sebha from skratch\sebha\ssd.h
+
+1593664840 source:e:\courses\try to make sebha from skratch\sebha\ssd.c
+	"ssd.h"
+	"gpio.h"
+	"utilites.h"
+
+1593618493 e:\courses\try to make sebha from skratch\sebha\utilites.h
+
+1593618686 source:e:\courses\try to make sebha from skratch\sebha\utilites.c
+	"utilites.h"
+
+1593700957 source:e:\courses\try to make sebha from skratch\sebha\counter.c
+	"counter.h"
+	"ssd.h"
+	"pushbutton.h"
+
+1593624742 e:\courses\try to make sebha from skratch\sebha\counter.h
+
+1593633427 e:\courses\try to make sebha from skratch\sebha\pushbutton.h
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sebha" />
+		<Option pch_mode="2" />
+		<Option compiler="sdcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/sebha" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="sdcc" />
+				<Compiler>
+					<Add option="--debug" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/sebha" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="sdcc" />
+				<Compiler>
+					<Add option="--opt-code-size" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="counter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="counter.h" />
+		<Unit filename="gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gpio.h" />
+		<Unit filename="pushbutton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pushbutton.h" />
+		<Unit filename="sebha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ssd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ssd.h" />
+		<Unit filename="utilites.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utilites.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
